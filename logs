@@ -1,0 +1,100 @@
+2021-02-23T12:10:15.480464+00:00 app[api]: Initial release by user **REDACTED**
+2021-02-23T12:10:15.480464+00:00 app[api]: Release v1 created by user **REDACTED**
+2021-02-23T12:10:15.653485+00:00 app[api]: Enable Logplex by user **REDACTED**
+2021-02-23T12:10:15.653485+00:00 app[api]: Release v2 created by user **REDACTED**
+2021-02-23T12:14:53.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-23T12:14:54.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-23T12:18:54.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-23T12:18:55.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-23T12:22:17.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-23T12:22:31.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-23T12:22:32.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-23T12:22:46.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-24T11:02:59.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-24T11:03:22.147840+00:00 app[api]: Deploy d11e000a by user **REDACTED**
+2021-02-24T11:03:22.147840+00:00 app[api]: Release v3 created by user **REDACTED**
+2021-02-24T11:03:30.000000+00:00 app[api]: Build succeeded
+2021-02-24T11:03:48.789222+00:00 **REDACTED**[router]: at=error code=H14 desc="No web processes running" method=GET path="/" host=sakujin-repl.**REDACTED**app.com request_id=767abb2a-2a06-4ef7-b78c-9c3abd0da831 fwd="8.21.11.62" dyno= connect= service= status=503 bytes= protocol=https
+2021-02-24T11:04:01.509975+00:00 **REDACTED**[router]: at=error code=H14 desc="No web processes running" method=GET path="/favicon.ico" host=sakujin-repl.**REDACTED**app.com request_id=21f1b250-5a4d-460f-8db5-e0e1d9081f50 fwd="8.21.11.62" dyno= connect= service= status=503 bytes= protocol=https
+2021-02-25T00:41:09.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T00:41:12.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T00:42:33.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T00:42:36.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T00:45:30.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T00:45:47.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T00:52:30.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T00:52:47.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T14:35:48.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T14:36:16.600512+00:00 app[api]: Release v4 created by user **REDACTED**
+2021-02-25T14:36:16.600512+00:00 app[api]: Deploy bcf59404 by user **REDACTED**
+2021-02-25T14:36:25.000000+00:00 app[api]: Build succeeded
+2021-02-25T14:41:29.545738+00:00 app[api]: Scaled to ECHO@1:Free by user **REDACTED**
+2021-02-25T14:41:32.915213+00:00 **REDACTED**[ECHO.1]: Starting process with command `is on.`
+2021-02-25T14:41:33.606077+00:00 **REDACTED**[ECHO.1]: State changed from starting to up
+2021-02-25T14:41:35.941106+00:00 app[ECHO.1]: bash: is: command not found
+2021-02-25T14:41:36.005887+00:00 **REDACTED**[ECHO.1]: Process exited with status 127
+2021-02-25T14:41:36.086263+00:00 **REDACTED**[ECHO.1]: State changed from up to crashed
+2021-02-25T14:41:36.089651+00:00 **REDACTED**[ECHO.1]: State changed from crashed to starting
+2021-02-25T14:41:39.147655+00:00 **REDACTED**[ECHO.1]: Starting process with command `is on.`
+2021-02-25T14:41:39.887953+00:00 **REDACTED**[ECHO.1]: State changed from starting to up
+2021-02-25T14:41:41.917463+00:00 app[ECHO.1]: bash: is: command not found
+2021-02-25T14:41:41.982419+00:00 **REDACTED**[ECHO.1]: Process exited with status 127
+2021-02-25T14:41:42.066577+00:00 **REDACTED**[ECHO.1]: State changed from up to crashed
+2021-02-25T14:45:35.949035+00:00 app[api]: Scaled to ECHO@0:Free by user **REDACTED**
+2021-02-25T14:45:36.097142+00:00 **REDACTED**[ECHO.1]: State changed from crashed to down
+2021-02-25T14:56:26.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T14:56:47.980350+00:00 app[api]: Release v5 created by user **REDACTED**
+2021-02-25T14:56:47.980350+00:00 app[api]: Deploy 71bd8187 by user **REDACTED**
+2021-02-25T14:57:01.000000+00:00 app[api]: Build succeeded
+2021-02-25T15:01:44.081142+00:00 app[api]: Scaled to worker@1:Free by user**REDACTED**
+2021-02-25T15:01:47.991187+00:00 **REDACTED**[worker.1]: Starting process with command `sakujin.mc-repl.py`
+2021-02-25T15:01:48.668573+00:00 **REDACTED**[worker.1]: State changed from starting to up
+2021-02-25T15:01:50.216150+00:00 app[worker.1]: bash: sakujin.mc-repl.py: command not found
+2021-02-25T15:01:50.263187+00:00 **REDACTED**[worker.1]: Process exited with status 127
+2021-02-25T15:01:50.322967+00:00 **REDACTED**[worker.1]: State changed from up to crashed
+2021-02-25T15:01:50.326795+00:00 **REDACTED**[worker.1]: State changed from crashed to starting
+2021-02-25T15:01:54.641612+00:00 **REDACTED**[worker.1]: Starting process with command `sakujin.mc-repl.py`
+2021-02-25T15:01:55.444287+00:00 **REDACTED**[worker.1]: State changed from starting to up
+2021-02-25T15:01:57.735284+00:00 app[worker.1]: bash: sakujin.mc-repl.py: command not found
+2021-02-25T15:01:57.814594+00:00 **REDACTED**[worker.1]: Process exited with status 127
+2021-02-25T15:01:58.019468+00:00 **REDACTED**[worker.1]: State changed from up to crashed
+2021-02-25T15:04:52.992736+00:00 app[api]: Scaled to worker@0:Free by user **REDACTED**
+2021-02-25T15:04:53.239081+00:00 **REDACTED**[worker.1]: State changed from crashed to down
+2021-02-25T15:06:53.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T15:07:13.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T15:09:46.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T15:10:04.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T15:11:23.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T15:11:38.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-25T15:13:32.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-25T15:13:48.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:07:02.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:07:20.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:09:00.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:09:20.940427+00:00 app[api]: Deploy 6da65f87 by user **REDACTED**
+2021-02-26T19:09:20.940427+00:00 app[api]: Release v6 created by user **REDACTED**
+2021-02-26T19:09:29.000000+00:00 app[api]: Build succeeded
+2021-02-26T19:09:40.440850+00:00 app[api]: Scaled to worker@1:Free by user **REDACTED**
+2021-02-26T19:09:44.057857+00:00 **REDACTED**[worker.1]: Starting process with command `sakujin.mc-repl.py`
+2021-02-26T19:09:44.871647+00:00 **REDACTED**[worker.1]: State changed from starting to up
+2021-02-26T19:09:47.166972+00:00 app[worker.1]: bash: sakujin.mc-repl.py: command not found
+2021-02-26T19:09:47.237468+00:00 **REDACTED**[worker.1]: Process exited with status 127
+2021-02-26T19:09:47.342740+00:00 **REDACTED**[worker.1]: State changed from up to crashed
+2021-02-26T19:09:47.346001+00:00 **REDACTED**[worker.1]: State changed from crashed to starting
+2021-02-26T19:09:50.802609+00:00 **REDACTED**[worker.1]: Starting process with command `sakujin.mc-repl.py`
+2021-02-26T19:09:51.459579+00:00 **REDACTED**[worker.1]: State changed from starting to up
+2021-02-26T19:09:52.958130+00:00 app[worker.1]: bash: sakujin.mc-repl.py: command not found
+2021-02-26T19:09:53.016981+00:00 **REDACTED**[worker.1]: Process exited with status 127
+2021-02-26T19:09:53.080964+00:00 **REDACTED**[worker.1]: State changed from up to crashed
+2021-02-26T19:12:18.372974+00:00 app[api]: Scaled to worker@0:Free by user **REDACTED**
+2021-02-26T19:12:18.457151+00:00 **REDACTED**[worker.1]: State changed from crashed to down
+2021-02-26T19:15:20.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:15:36.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:17:13.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:17:31.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:18:38.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:18:55.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:23:32.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:23:48.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
+2021-02-26T19:27:14.000000+00:00 app[api]: Build started by user **REDACTED**
+2021-02-26T19:27:30.000000+00:00 app[api]: Build failed -- check your build output: **REDACTED**
