@@ -1,0 +1,14 @@
+-----> Building on the **REDACTED**-20 stack
+-----> Python app detected
+-----> Requirements file has been changed, clearing cached dependencies
+-----> Installing python-3.6.13
+-----> Installing pip 20.1.1, setuptools 47.1.1 and wheel 0.34.2
+-----> Installing SQLite3
+-----> Installing requirements with pip
+       Collecting git+https://github.com/spicyyakilove/sakujin.git (from -r /tmp/build_ffcaf686/requirements.txt (line 1))
+         Cloning https://github.com/spicyyakilove/sakujin.git to /tmp/pip-req-build-2jn9f2jt
+         Running command git clone -q https://github.com/spicyyakilove/sakujin.git /tmp/pip-req-build-2jn9f2jt
+         fatal: could not read Username for 'https://github.com': No such device or address
+       ERROR: Command errored out with exit status 128: git clone -q https://github.com/spicyyakilove/sakujin.git /tmp/pip-req-build-2jn9f2jt Check the logs for full command output.
+ !     Push rejected, failed to compile Python app.
+ !     Push failed
